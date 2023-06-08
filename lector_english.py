@@ -17,7 +17,7 @@ def transform_csv_to_text(file):
         formatted_text += '**Do you contribute to free software/hardware? If yes: What is your main motivation for doing so?:**\n' + f'{row["Do you contribute to free software/hardware? If yes: What is your main motivation for doing so?"]}\n\n'
         formatted_text += '**In your opinion, what is the best way to start contributing to an open project?:**\n' + f'{row["In your opinion, what is the best way to start contributing to an open project?"]}\n\n'
         formatted_text += '**Is it your first time in OpenSouthCode? If yes: How did you get to know us?:**\n' + f'{row["Is it your first time in OpenSouthCode? If yes: How did you get to know us?"]}\n\n'
-        formatted_text += '**And finally, a little-known detail about you from your childhood: your favorite toy, what did you like to break, did you eat well or were a pain at the table... Tell us your story.:**\n' + f'{row["And finally, a little-known detail about you from your childhood: your favorite toy, what did you like to break, did you eat well or were a pain at the table... Tell us your story."]}\n\n'
+        formatted_text += '**And finally, a little-known detail about you from your childhood: your favorite toy, what did you like to break, did you eat well or were a pain at the table... Tell us your story.:**\n' + f'{row["And finally, a little-known detail about you from your childhood: your favorite toy, what did you like to break, did you eat well or were a pain at the table... Tell us your story."]}\n\n' 
 
     return formatted_text
 
